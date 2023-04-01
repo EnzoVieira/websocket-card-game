@@ -67,8 +67,6 @@ export const SocketProvider = ({ children }: ISocketProvider) => {
 
         return newPlayers
       })
-
-      console.log(data)
     })
 
     if (userId) {
